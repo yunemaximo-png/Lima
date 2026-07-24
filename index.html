@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!DOCTYPE html> <!--Identifica a versão 5 do HTML-->
+<html lang="pt-br"> <!--Declara que este trecho do arquivo representa código HTML-->
+<head> <!--Declara metainformações sobre a página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Um guia completo sobre HTML e suas tags">
@@ -20,18 +20,111 @@
 </head>
 <body>
     <header>
-    <h1 style="font-family: Griffy, sans-serif;">Bem-vindo ao site!</h1>
+        <h1 style="font-family: Griffy, sans-serif;">Bem-vindo a este poço</h1>
+        <h2 style="font-family: Griffy, sans-serif;">Você decide a profundidade</h2>
     </header>
 
     <main>
-    <p>Este é um exemplo de uma página definida no português do Brasil./</p>
-    <p id="paragrafo">Precisa assinar</p>
-    <button id="botao"> Clique aqui! </button>
-    <h1></h1>
+        <p style="font-family: Griffy, sans-serif;">Você pode mudar as coisas</p>
+        <p id="paragrafo" style="font-family: Griffy, sans-serif;">Como aqui</p>
+        <button id="botao" style="font-family: Griffy, sans-serif;">Usufrua</button>
+        <p style="font-family: Griffy, sans-serif;"> 
+            Tenho de proclamar a minha <strong>incredulidade</strong> <br>
+            Para mim não há nada de mais elevado que a ideia da <mark>inexistência</mark> de Deus. <br>
+            O homem inventou <em>Deus</em> para poder viver sem se matar. <br>
+        </p>
+        <p style="font-family: Griffy, sans-serif; color:rgb(106, 13, 29);" >
+            Fiódor Dostoiévski
+        </p>
+
+        <p>Este é um abre chevon &lt;</p>
+        
+        <ul type="square" style="font-family: Griffy, sans-serif;"> <!--Lista não ordenada, usada para itens sem ordem específica-->
+            <!--Cada item da lista é definido pela tag <li>-->
+            <li>Cities In Dust</li>
+            <li>Spellbound</li>
+            <li>The Passenger</li>
+        </ul>
+
+        <ul type="disc">
+            <li>Item com marcador padrão(disc)</li>
+        </ul>
+
+        <ul type="circle">
+            <li>Item com marcador de círculo vazio(circle)</li>
+        </ul>
+
+        <ul type="square">
+            <li>Item com marcador de quadrado preenchido(square)</li>
+        </ul>
+
+        <h2 style="font-family: Griffy, sans-serif;">Passos para ouvir música boa</h2>
+        <ol style="font-family: Griffy, sans-serif;"><!--Lista ordenada com os passos simples para ligar um computador-->
+            <!--Cada item é definido pela tag <li>-->
+            <li>Vá até a imagem no fim do site.</li>
+            <li>Click em cima dela.</li>
+            <li>Escolha as múusicas dos itens 5,6 e 7.</li>
+            <li>Dê play</li>
+        </ol>
+
+        <ol start="5" reversed style="font-family: Griffy, sans-serif;">
+            <li style="color:rgb(237, 58, 61);">She's a Carnival</li>
+            <li>Dear Prudence</li>
+            <li>O baby</li>
+        </ol>
+    <p>
+        <a 
+        href="https://www.google.com" 
+        target="_black"
+        title="Faça bscas na Internet"
+        rel="nofollow noopener"
+        style="font-family: Griffy, sans-serif;"
+        >
+        Pesquise e adquira conhecimento
+        </a>
+    </p>
+    <p>
+        <a
+        href="https://open.spotify.com/intl-pt/artist/1n65zfwYIj5kKEtNgxUlWb"
+        target="_blank"
+        title="Música de qualidade"
+        rel="nofollow noopener"
+        style="font-family: Griffy, sans-serif;"
+        >
+        Entre e adquira bom gosto
+        </a>
+
+    </p> 
+
+    <p>
+        <a href="https://www.youtube.com/c/SiouxsieAndTheBanshees">
+            <img 
+                src="./Siouxsie.jpg"
+                height="270px"
+                alt="Siouxsie em capa de revista"
+                title="Artista bonita com voz mais ainda"
+            >
+        </a>
+    </p>
+
+    <table border="2" cellspacing="1" cellpading="10" style="color:rgb(252, 157, 255);"> <!--Elemento tabela-->
+        <tr> <!--Elemento linha de tabela (table row)-->
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>País</th>
+        </tr>
+
+        <tr>
+            <th>Siouxsie Sioux</th>
+            <th>69</th>
+            <th>Reino unido</th>
+        </tr>
+
+    </table>
     </main>
-    
+        
     <footer>
-        &copy; 2026 - Todos os direitos reservados
+            &copy; 2026 - Todos os direitos reservados
     </footer>
                                                                       
 </body>
