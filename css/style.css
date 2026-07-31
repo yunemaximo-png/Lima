@@ -5,7 +5,7 @@
                             no cáuculo do tamanho dos elementos*/
 }
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightskyblue;
     display: flex; /*Utiliza o modelo de leiaute flexbox para o corpo do documento*/
     justify-content: center; /*Centraliza os elementos horizontalmente*/
@@ -26,12 +26,18 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow:0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 15px rgb(0, 0, 0, 0.7);
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     /*Aplica uma transição suave para efeito de transformação de sobra*/
 }
 
 .card:hover{
-    transform: translateY(-10px) /*Movimenta o cartão para cima em 10 px ao passar o mouse sobre ele, 
+    transform: translateY(-10px); /*Movimenta o cartão para cima em 10 px ao passar o mouse sobre ele, 
     criando um efeito de elevador*/
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.7); /*Aumenta a intensidade da sombra ao passar 
+    o mouse pelo cartão*/
+}
+
+.btn{
+    background-color: rgb(0, 255, 187);
 }
