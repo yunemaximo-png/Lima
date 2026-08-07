@@ -151,4 +151,30 @@ body{
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    border-radius: var(--border-radius);
+}
+/*Média Queris*/
+@media(max-width: 768px){
+    .main-contect{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        width: 100%;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+    .menu-toggle{
+        display: block;
+    }
 }
