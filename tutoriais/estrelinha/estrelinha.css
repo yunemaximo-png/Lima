@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(9, 0, 20);
+}
+
+.estrelinha {
+    position: fixed;
+    pointer-events: none;
+    font-size: 12px;
+    content: "&#10022;";
+    color:white;
+    text-shadow: 0 0 6px #ffeb3b, 0 0 10px #ff9800, 0 0 15px #ffaa00;
+    animation: caiEDesvanece 800ms ease-out forwards;
+}
+
+@keyframes caiEDesvanece {
+    0% {
+        opacity: 1;
+        transform: translate(0,0) scale(1) rotate(0);
+    }
+
+    100% {
+       opacity: 0;
+       transform: translate(var(--xAleatorio), 40px) scale(0.3) rotate(45deg);  
+    }
+}
